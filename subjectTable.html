@@ -3,8 +3,9 @@
 <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <style>
  table, thead, tbody, tfoot, tr, th, td {border:1px solid black;  border-collaapse:collapse; }
- .subject1{ background-color:lightgray; } .subject2{ background-color:#FAF4C0; }
-</style><!--  border-collapse:collapse 단선으로, 반대는 separate -->
+ .subject1{ background-color:lightgray; } .subject2{ background-color:#FAF4C0; } .subject3{ background-color:red; } .subject4{ background-color:blue; } .subject5{ background-color:green; }
+ .subject6{ background-color:yellow; } .subject7{ background-color:purple; }
+ </style><!--  border-collapse:collapse 단선으로, 반대는 separate -->
 <title>HTML5시간표</title></head>
 <body>
 <table>
@@ -12,8 +13,8 @@
 <thead>
  <tr><th>시간</th>  <th>월</th>           <th>화</th>            <th>수</th></tr></thead>
 <tbody>
- <tr><td>1교시</td><td></td>              <td>오토마타와응용</td><td rowspan="2" class="subject1">자료구조및실습</td></tr>
- <tr><td>2교시</td><td></td>              <td>오토마타와응용</td><td></td></tr>
+ <tr><td>1교시</td><td></td>              <td rowspan="2" class="subject3">오토마타와응용</td><td rowspan="2" class="subject1">자료구조및실습</td></tr>
+ <tr><td>2교시</td><td></td>              <td></td><td></td></tr>
  <tr><td>3교시</td><td rowspan="2" class="subject2">디지털논리회로</td> <td>자료구조및실습</td><td></td></tr>
  <tr><td>4교시</td><td></td> <td>자료구조및실습</td><td>이슬람문명</td></tr>
  <tr><td>5교시</td><td></td>              <td>디지털논리회로</td><td>이슬람문명</td></tr>
