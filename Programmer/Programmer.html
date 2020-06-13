@@ -1,10 +1,10 @@
-<!doctype html> <!-- Programmer.html -->
+<!doctype html> <!-- rwd2.html -->
 <html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <script>
   function event1onclick(){    document.getElementById("id_1").innerHTML
-  ="<h3>학력</h3>동해물과 백두산이 마르고 닳도록 하느님이 보우하사 <mark>우리나라 만세</mark><br/><i>(후렴)무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세</i><br/>";}
+  ="<h3>학력</h3> 저는 대전대학교 컴퓨공학과 2학년을 재학중이며 컴퓨터 언어로는 C언어 C++을 배웠습니다. 아직 C언어 C++ 밖에 못하지만 앞으로 더욱 발전해 나가면서 여러 컴퓨터 프로그램들을 배우고 더욱 프로그래머에 가까워 질 수 있도록 노력하겠습니다.";}
   function event2onclick(){    document.getElementById("id_1").innerHTML
-  ="남산 위에 저 소나무 철갑을 두른 듯 바람 서리 불변함은 <mark>우리 기상일세</mark> <br/><i>(후렴)무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세</i><br/>";}
+  ="<h3>경력</h3> 대전대학교 컴퓨터 공학과에서 1학년 과정을 맞치고 2학년 1학기 재학중이며 전공으로 <br>1. 이산수학<br>2. C언어<br>3. C++ <br>4. 인터넷 응용<br>5. 디지털논리회로 <br>6. 형식언어와 오토마타<br>이렇게 배웠습니다.</br> ";}
   function event3onclick(){    document.getElementById("id_1").innerHTML
   ="가을 하늘 공활한데 높고 구름 없이 밝은 달은 우리 가슴 <mark>일편단심일세</mark> <br/><i>(후렴)무궁화 삼천리 화려강산 대한 사람 대한으로 길이 보전하세</i><br/>";}
   function event4onclick(){    document.getElementById("id_1").innerHTML
@@ -14,7 +14,7 @@
 .col-1{width:8.33%;} .col-2{width:16.66%;} .col-3{width:20%;} .col-4{width:33.33%;}
 .col-5{width:41.66%;} .col-6{width:50%;} .col-7{width:58.33%;} .col-8{width:66.66%;}
 .col-9{width:75%;} .col-10{width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}
-[class*="col-"] {float:left; padding:10px;} .header, .footer{background-color:green; color:black; padding:10px;}
+[class*="col-"] {float:left; padding:10px;} .header, .footer{background-color:<img src="Programmer.jpg"/>; color:black; padding:10px;}
 .menu ul, .banner ul { list-style-type:none;}
 .menu li{background-color:white; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .menu li:hover{background-color:green;}
@@ -22,19 +22,19 @@
 .banner li img {width:30%; vertical-align:middle;} 
 @media only screen and (max-width: 780px) { [class*="col-"] { width:100%; } }
 </style>
-<title>RWD 실습</title></head>
+<title>20191367 최주영 소개</title></head>
 <body>
-<header class="header">20191367 최주영</header>
+<header class="header"><h2>20191367 최주영</h2></header>
 <div class="row"></div>
 <div id="main">
  <nav class="col-3 menu"> <!-- 메뉴 -->
- <ul><li><p onclick="event1onclick()"><a href="#chapter1">1절</a></p></li><li><p onclick="event2onclick()">2절</p></li><li><p onclick="event3onclick()">3절</p></li><li><p onclick="event4onclick()">4절</p></li></ul></nav>
+ <ul><li><p onclick="event1onclick()">학력</p></li><li><p onclick="event2onclick()">경력</p></li><li><p onclick="event3onclick()"><a href="http://www.naver.com" target="_blank">3절</a></p></li><li><p onclick="event4onclick()">4절</p></li></ul></nav>
  <section class="col-6">
   <h3>
   나의 대해
   </h3>
   <p>
-  컴퓨터에는 많은 언어들이 있습니다
+  안녕하세요 저는 대전대학교 컴퓨터 공학과를 다니고 있는 최주영이라고 합니다. 아직 많이 부족하지만 컴퓨터 언어, 여러 프로그램에 대해서 더욱 배우고 싶고 알고싶습니다. 앞으로 더욱 다양한 프로그램 활동을 해보고 싶고 활동을 진행하면서 더욱 실력을 많이 쌓아 자격증을 따면서 더 나은 프로그래머가 되고 싶습니다.
   </p>
   <p id="id_1"></p>
   <p></p></section>
