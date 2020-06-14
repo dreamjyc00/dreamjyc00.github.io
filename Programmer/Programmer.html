@@ -1,4 +1,4 @@
-<!doctype html> <!-- rwd2.html -->
+<!doctype html> <!-- Programmer.html -->
 <html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <style> * {box-sizing:border-box; padding:0; margin:0;} .row::after{content:""; clear:both; display:table;}
 .col-1{width:8.33%;} .col-2{width:16.66%;} .col-3{width:20%;} .col-4{width:33.33%;}
@@ -6,9 +6,9 @@
 .col-9{width:75%;} .col-10{width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}
 [class*="col-"] {float:left; padding:10px;} .header, .footer{background-color:green; color:black; padding:20px;}
 .menu ul, .banner ul { list-style-type:none;}
-.menu li{background-color:white; color:black; padding:20px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+.menu li{background-color:white; color:black; padding:50px; margin-bottom:20px; box-shadow:0 1px 3px gray;}
 .menu li:hover{background-color:green;}
-.contents {background-color:white; color:black; padding:20px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
+.contents  {background-color:white; color:black; padding:20px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .banner li {border:2px solid black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .banner li img {width:30%; vertical-align:middle;} 
 @media only screen and (max-width: 780px) { [class*="col-"] { width:100%; } }
@@ -19,26 +19,24 @@
 <div class="row"></div>
 <div id="main">
  <nav class="col-3 menu"> <!-- 메뉴 -->
- <ul><li><a href="#contents1">학력</a></li><li><a href="#contents2">수업 수강 내역</a></li><li><p onclick="event3onclick()"><a href="http://www.naver.com" target="_blank">3절</a></p></li><li><p onclick="event4onclick()">4절</p></li></ul></nav>
+ <ul><li><a href="#contents1"><h2>Education</h2></a></li><li><a href="#contents2"><h2>Major</h2></a></li><li><a href="#contents3"><h2>
+ C, C++ Activity</h2></a></li><li><a href="#contents4">4절</a></li><li></li></ul></nav>
  <section class="col-6 contents">
-  <h3>
-  나의 대해
-  </h3>
+  <h2>About Me</h2>
   <p>
+  <br>
  안녕하세요 저는 대전대학교 컴퓨터 공학과를 다니고 있는 최주영이라고 합니다. 아직 많이 부족하지만 컴퓨터 언어, 여러 프로그램에 대해서 더욱 배우고 싶고 알고싶습니다. 앞으로 더욱 다양한 프로그램 활동을 해보고 싶고 활동을 진행하면서 더욱 실력을 많이 쌓아 자격증을 따면서 더 나은 프로그래머가 되고 싶습니다.
   </p></section>
-  <section class="col-6 contents">
-  <h3 id="contents1">학력</h3><p>저는 대전대학교 컴퓨공학과 2학년을 재학중이며 컴퓨터 언어로는 C언어 C++을 배웠습니다. 아직 C언어 C++ 밖에 못하지만 앞으로 더욱 발전해 나가면서 여러 컴퓨터 프로그램들을 배우고 더욱 프로그래머에 가까워 질 수 있도록 노력하겠습니다.</p></section>
-  <section class="col-6 contents">
-  <h3 id="contents2">수업 수강 내역</h3><p>대전대학교 컴퓨터 공학과에서 1학년 과정을 맞치고 2학년 1학기 재학중이며 전공으로 <br>1. 이산수학<br>2. C언어<br>3. C++ <br>4. 인터넷 응용<br>5. 디지털논리회로 <br>6. 형식언어와 오토마타<br>이렇게 배웠습니다.</p></section>
-  <section class="col-6 contents">
-  <h3 id="contents3">C, C++ 활동</h3><p>대전대학교 컴퓨터 공학과에서 1학년 과정을 맞치고 2학년 1학기 재학중이며 전공으로 <br>1. 이산수학<br>2. C언어<br>3. C++ <br>4. 인터넷 응용<br>5. 디지털논리회로 <br>6. 형식언어와 오토마타<br>이렇게 배웠습니다.</p></section>
-  <section class="col-6 contents">
-  <h3 id="contents4">인터넷 응용 활동</h3><p>대전대학교 컴퓨터 공학과에서 1학년 과정을 맞치고 2학년 1학기 재학중이며 전공으로 <br>1. 이산수학<br>2. C언어<br>3. C++ <br>4. 인터넷 응용<br>5. 디지털논리회로 <br>6. 형식언어와 오토마타<br>이렇게 배웠습니다.</p></section>
- <aside class="col-3 banner">
+  <aside class="col-3 banner">
   <ul><li><img src="flag.png">한국</li><li><img src="flag.png"/>Korea</li></ul></aside>
- <div class="row"></div>
- <aside class="col-3 banner">
-  <ul><li><img src="flag.png">한국</li></ul></aside>
-  </div><div class="row"></div>
+  <section class="col-6 contents">
+  <h2 id="contents1">Education</h2><p><br>저는 대전대학교 컴퓨공학과 2학년을 재학중이며 컴퓨터 언어로는 C언어 C++을 배웠습니다. 아직 C언어 C++ 밖에 못하지만 앞으로 더욱 발전해 나가면서 여러 컴퓨터 프로그램들을 배우고 더욱 프로그래머에 가까워 질 수 있도록 노력하겠습니다.</p></section>
+   <section class="col-6 contents">
+  <h2 id="contents2">Major</h2><p><br>대전대학교 컴퓨터 공학과에서 1학년 과정을 맞치고 2학년 1학기 재학중이며 전공으로 <br>1. 이산수학<br>2. C언어<br>3. C++ <br>4. 인터넷 응용<br>5. 디지털논리회로 <br>6. 형식언어와 오토마타<br>이렇게 배웠습니다.</p></section>
+  <section class="col-6 contents">
+  <h3 id="contents3">C, C++ Activity</h3><p>C</p></section>
+  <section class="col-6 contents">
+  <h3 id="contents4">인터넷 응용 활동</h3><p>대전대학교 컴퓨터 공학과에서 1학년 과정을 맞치고 2학년 1학기 재학중이며 전공으로 <br>1. 이산수학<br>2. C언어<br>3. C++ <br>4. 인터넷 응용<br>5. 디지털논리회로 <br>6. 형식언어와 오토마타<br>이렇게 수강했습니다.</p></section>
+  <div class="row"></div>
+  </div>
 <footer class="footer"><h4>Copyright 20XX Korea.</h4></footer></body></html>
